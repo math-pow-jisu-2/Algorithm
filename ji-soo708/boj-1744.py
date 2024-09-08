@@ -6,7 +6,7 @@ import sys
 
 input = sys.stdin.readline
 n = int(input())
-nums = sorted([int(input()) for _ in range(n)])
+nums = [int(input()) for _ in range(n)]
 
 # 음수와 양수를 분리
 m_nums = []
