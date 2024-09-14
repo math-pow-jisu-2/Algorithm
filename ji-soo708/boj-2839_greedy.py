@@ -15,4 +15,3 @@ while n>=0:
     temp += 1
 else:
     print(-1)
-    
